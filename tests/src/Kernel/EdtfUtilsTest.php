@@ -49,6 +49,7 @@ class EdtfUtilsTest extends KernelTestBase {
     '1900-01-02T01:22:33Z' => [],
     '1900-01-02T01:22:33+' => ['The date/time \'1900-01-02T01:22:33+\' is invalid.'],
     '1900-01-02T01:22:33+05:00' => [],
+    '2025-01-01/2000-01-01' => ['The start date must be sooner than the end date.'],
   ];
 
   /**
